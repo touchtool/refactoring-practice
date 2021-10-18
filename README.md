@@ -10,13 +10,16 @@ Each subdirectory contains some code that needs refactoring.
 
 ## `time/timestamp.py`
 Refactor timestamp.py.  2 or 3 refactorings are possible.
--Rename args to meaningful name.
--Rename def to pep8 style.
--Extract method if is_valid_time statement.
+- Rename args to meaningful name.
+- Rename def to pep8 style.
+- Extract method if is_valid_time statement.
+
 ## `game_framework/gamelib.py`
-
 Look for refactorings in the class `GameApp`.
-
+- create_canvas replace side effects with return value
+- create_canvas add parameters instead of accessing attribute
+- add and remove element
+- make a global constant of canvas_width, canvas_height and update_delay
 * Avoid side-effects: replace side effect with return value (the caller must use the return value)
 
 * Encapsulate a collection - provide behavior that subclasses of GameApp need instead of requiring them to manipulate a collection that belongs to the GameApp class.
