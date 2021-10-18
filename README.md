@@ -9,9 +9,9 @@ Each subdirectory contains some code that needs refactoring.
 
 
 ## `time/timestamp.py`
-
 Refactor timestamp.py.  2 or 3 refactorings are possible.
-
+-Rename args to meaning word
+-Rename def to pep8 style
 
 ## `game_framework/gamelib.py`
 
