@@ -1,7 +1,8 @@
 import tkinter as tk
 import tkinter.ttk as ttk
 
-class GameCanvasElement():
+
+class GameCanvasElement:
     """Base class for an element on the game canvas, with attributes:
 
     x = x-coordinate of object's image

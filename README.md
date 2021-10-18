@@ -10,9 +10,9 @@ Each subdirectory contains some code that needs refactoring.
 
 ## `time/timestamp.py`
 Refactor timestamp.py.  2 or 3 refactorings are possible.
--Rename args to meaning word
--Rename def to pep8 style
-
+-Rename args to meaningful name.
+-Rename def to pep8 style.
+-Extract method if is_valid_time statement.
 ## `game_framework/gamelib.py`
 
 Look for refactorings in the class `GameApp`.
